@@ -1,4 +1,8 @@
-# My-Text-Editor 👥 | Just Another Text Editor (JATE)
+<p align="center">
+  <img width="70%"src="assets/images/logo.png">
+</p>
+
+# Just Another Text Editor (JATE) 👥 
 
 ![License Badge](https://img.shields.io/github/license/jak3ster/My-Text-Editor) ![Top Language](https://img.shields.io/github/languages/top/jak3ster/My-Text-Editor)
 
