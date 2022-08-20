@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Just Another Text Editor (JATE)",
   "main": "index.js",
+  "engines": {
+    "node": "16.5.0"
+  },
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+		"start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
+		"start": "npm run build && cd server && node server.js",
+		"server": "cd server node server.js --ignore client",
+		"build": "cd client && npm run build",
+		"install": "cd client && npm install",
+		"client": "cd client && npm start"
   },
   "repository": {
     "type": "git",
