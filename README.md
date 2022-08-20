@@ -80,6 +80,6 @@ THEN I should have proper build scripts for a webpack application
   * concurrently
   * nodemon
 
-## License 📜
+## License ⚖️
 
   Licensed under the [MIT](LICENSE) license.
